@@ -1,11 +1,12 @@
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Trebuchet MS;
     background-color: #FAF9F6;
     max-width: 85ch;
     padding: 2ch;
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
+    word-break: break-word;
 }
 
 hr {
@@ -16,4 +17,10 @@ hr {
 
 a {
     color: #1e56ac;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
 }
